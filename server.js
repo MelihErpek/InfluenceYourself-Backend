@@ -167,4 +167,4 @@ app.get("/log", auth, async (req, res) => {
     res.json({ user: user })
 });
 
-app.listen(port);
+const port = process.env.PORT || 5000;
