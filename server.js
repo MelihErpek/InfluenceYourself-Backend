@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken")
 const app = express();
-const auth = require("./middleware/auth");
+const auth = require("./Middleware/auth");
 const User = require("./Models/User");
 
 app.use(cors());
